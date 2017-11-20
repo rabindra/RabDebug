@@ -33,7 +33,7 @@ public class BatteryUtils {
         mContext = context;
     }
 
-    public BatteryUtils getInstance(Context context){
+    public static BatteryUtils getInstance(Context context){
         return new BatteryUtils(context);
     }
 
